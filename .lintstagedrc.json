@@ -1,0 +1,4 @@
+{
+  "*.spec|test": ["jest --run"],
+  "*.{ts,tsx}": ["eslint . --fix", "prettier . --write"]
+}
